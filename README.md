@@ -5,9 +5,9 @@ In this assignment you'll get more familiar with reading files and working with 
 
 Import matplotlib like this:  
 
-import matplotlib  
-matplotlib.use('Agg')  
-import matplotlib.pyplot as plt  
+import matplotlib    
+matplotlib.use('Agg')     
+import matplotlib.pyplot as plt     
 
 This will prevent matplotlib from trying to open a display, which it does by default, even if you don't see it.
 
