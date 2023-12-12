@@ -3,14 +3,6 @@ Python assignment to learn the basics of matplotlib.
 
 In this assignment you'll get more familiar with reading files and working with lists and learn the basics of matplotlib, a powerful and high-quality graphing library. The goal is to plot changes in cell counts over time under different conditions.
 
-Import matplotlib like this:  
-
-import matplotlib    
-matplotlib.use('Agg')     
-import matplotlib.pyplot as plt     
-
-This will prevent matplotlib from trying to open a display, which it does by default, even if you don't see it.
-
 You will create a python script, assign2.py, that takes an arbitrary number of input arguments, and an output file (the last argument is the name of the output file). Make sure that each input file may have an arbitrary (but fixed) number of columns (representing different replicates of the same experiment).
 
 The input file has a header that specifies the name of the data followed by rows of x,y data like this:  
