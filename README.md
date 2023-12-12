@@ -22,7 +22,7 @@ The first column of the data is the time points of the experiments. The other co
 Your script will plot the data using a line and circle style and save the result to the output file (out0.60.png in this example).
 Add axis labels and a legend. The legend should be positioned in the "best" position as determined by matplotlib. The data is labeled according to the header value provided in the input file. You should plot the average (mean) of these values for each time point. In addition to plotting the mean, plot the standard deviation with errorbars.
 
-./assign2.py  in.0 in.1 in.2 out0.90.png
+./assign2.py  mc2.0 mc2.1 mc2.2 output.png
 
 
 
